@@ -2,6 +2,30 @@ html {
   box-sizing: border-box;
 }
 
+.btn {
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  padding: 15px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  z-index: 5;
+  border: none;
+  transition-duration: 1s;
+  transition: fade 2s ease;
+}
+
+.btn:hover {
+  border: 3px solid transparent;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
